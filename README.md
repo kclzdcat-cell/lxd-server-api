@@ -3,7 +3,7 @@
 ## 🚀 一键执行命令
 
 复制下面命令即可一键运行1.0.6版本：
-LXD安装：
+# LXD安装：
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxd.sh)
 ```
@@ -13,5 +13,5 @@ bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api
 ```
 api安装：
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxdapi.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxdapi.sh) --version 1.0.6
 ```
