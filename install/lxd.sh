@@ -21,7 +21,7 @@ while [[ $# -gt 0 ]]; do
     -d|--delete) DELETE=true; shift;;
     -h|--help)
       echo "========================================"
-      echo "        LXD 安装脚本"
+      echo "        LXD 安装脚本-LazyCat二改1.0.6版本"
       echo "========================================"
       echo
       echo "用法: $0 [选项]"
@@ -36,7 +36,6 @@ while [[ $# -gt 0 ]]; do
       echo "  $0 -f           # 强制重新安装"
       echo "  $0 -d           # 卸载 LXD"
       echo
-      echo "详细教程: https://github.com/xkatld/zjmf-lxd-server/wiki"
       exit 0;;
     *) err "未知参数: $1 (使用 -h 查看帮助)";;
   esac
