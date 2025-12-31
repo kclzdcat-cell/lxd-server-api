@@ -3,7 +3,15 @@
 ## 🚀 一键执行命令
 
 复制下面命令即可一键运行1.0.6版本：
-
+LXD安装：
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/blob/main/install/lxd.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxd.sh)
+```
+image安装：
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxdimages.sh)
+```
+api安装：
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxdapi.sh)
 ```
