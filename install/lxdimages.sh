@@ -44,7 +44,6 @@ while [[ $# -gt 0 ]]; do
       echo "  $0 -f           # 强制重新安装工具"
       echo "  $0 -d           # 删除工具"
       echo
-      echo "详细教程: https://github.com/xkatld/zjmf-lxd-server/wiki"
       exit 0;;
     *) err "未知参数: $1 (使用 -h 查看帮助)";;
   esac
