@@ -15,3 +15,7 @@ api安装：
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxdapi.sh) --version 1.0.6
 ```
+# V2版本：
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/kclzdcat-cell/lxd-server-api/main/install/lxdapi_install.sh)
+```
